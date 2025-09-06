@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallman Builders</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #111; }
+    header { background: #000; color: #FFD700; padding: 1.5rem; text-align: center; }
+    nav { margin-top: 1rem; }
+    nav a { color: #FFD700; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    section { padding: 3rem 2rem; max-width: 1000px; margin: auto; }
+    h1, h2 { color: #000; }
+    .services, .portfolio, .process { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: #f8f8f8; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    footer { background: #000; color: #FFD700; text-align: center; padding: 2rem 1rem; }
+    form { display: grid; gap: 1rem; max-width: 600px; margin: auto; }
+    input, textarea, button { padding: 0.8rem; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; }
+    button { background: #FFD700; border: none; font-weight: bold; cursor: pointer; }
+    button:hover { background: #e6c200; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gallman Builders</h1>
+    <p>Premium Home Renovations & Construction</p>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#process">Our Process</a>
+      <a href="#quote">Request a Quote</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card"><h3>Home Renovations</h3><p>Modern upgrades, remodels, and restorations tailored to your lifestyle.</p></div>
+      <div class="card"><h3>New Construction</h3><p>From blueprint to build, we bring your dream home to life.</p></div>
+      <div class="card"><h3>Repairs & Upgrades</h3><p>Reliable fixes and improvements to keep your home in top shape.</p></div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Our Work</h2>
+    <div class="portfolio">
+      <div class="card"><p>Before & After Kitchen Remodel</p></div>
+      <div class="card"><p>Custom Deck Installation</p></div>
+      <div class="card"><p>Living Room Modernization</p></div>
+    </div>
+  </section>
+
+  <section id="process">
+    <h2>Our Process</h2>
+    <div class="process">
+      <div class="card"><h3>1. Consultation</h3><p>We listen to your needs and vision.</p></div>
+      <div class="card"><h3>2. Planning</h3><p>Clear scope, transparent pricing, and timeline.</p></div>
+      <div class="card"><h3>3. Build</h3><p>Quality craftsmanship with consistent updates.</p></div>
+      <div class="card"><h3>4. Completion</h3><p>Final walkthrough and lasting satisfaction.</p></div>
+    </div>
+  </section>
+
+  <section id="quote">
+    <h2>Request a Quote</h2>
+    <form action="mailto:gallmanbuilders@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Your Phone">
+      <textarea name="project" rows="5" placeholder="Tell us about your project" required></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:gallmanbuilders@gmail.com">gallmanbuilders@gmail.com</a></p>
+    <p>Phone: <a href="tel:3853359726">385-335-9726</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gallman Builders. All rights reserved.</p>
+    <p>Email: gallmanbuilders@gmail.com | Phone: 385-335-9726</p>
+  </footer>
+</body>
+</html>
